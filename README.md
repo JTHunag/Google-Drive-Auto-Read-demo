@@ -49,14 +49,16 @@ pip install streamlit google-api-python-client google-auth-httplib2 google-auth-
     -   **Google Drive API**
     -   **Google Sheets API**
 4.  建立「OAuth 2.0 用戶端 ID」
-    -   應用程式類型選擇：**Desktop App**
-5.  下載 `credentials.json` 並放在專案根目錄中
+    -   應用程式類型選擇：**Desktop App** or **桌面應用程式**
+5.  下載JSON將其改名為 `credentials.json` 並放在專案根目錄中
+<img width="567" height="675" alt="image" src="https://github.com/user-attachments/assets/d19dd9cf-e655-4574-bfb7-a270631d0230" />
+6.  使用 `credentials_auto_creat.py` 建立 `.streamlit/secrets.toml` 
 
 ------------------------------------------------------------------------
 
 ## 🧑‍💻 使用方式
 
-1.  確認 `credentials.json` 已放在專案資料夾中\
+1.  確認 `.streamlit/secrets.toml` 已放在專案資料夾中\
 
 2.  啟動 Streamlit 伺服器：
 
@@ -109,17 +111,6 @@ pip install streamlit google-api-python-client google-auth-httplib2 google-auth-
 
   `https://www.googleapis.com/auth/userinfo.email`          取得使用者 Email
   ---------------------------------------------------------------------------------------------
-
-------------------------------------------------------------------------
-
-## ☁️ 部署至 Streamlit Cloud（可選）
-
-1.  將專案上傳至 GitHub\
-2.  前往 <https://share.streamlit.io>\
-3.  點選「New app」，選擇你的 GitHub Repo\
-4.  指定主程式為 `app.py`\
-5.  在「Edit secrets」中貼上 `.streamlit/secrets.toml` 的內容\
-6.  儲存後即可線上使用你的 App 🎉
 
 ------------------------------------------------------------------------
 
