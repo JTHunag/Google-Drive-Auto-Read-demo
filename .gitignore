@@ -1,0 +1,17 @@
+# 不要上傳憑證與登入資訊
+credentials.json
+token.json
+.streamlit/secrets.toml
+.streamlit/streamlit_credentials.json
+
+# Python 自動產生的暫存
+__pycache__/
+*.pyc
+
+# 虛擬環境
+venv/
+.venv/
+
+# 系統暫存 (macOS / Windows)
+.DS_Store
+Thumbs.db
