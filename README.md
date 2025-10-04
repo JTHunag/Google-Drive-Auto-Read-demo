@@ -71,7 +71,7 @@ pip install streamlit google-api-python-client google-auth-httplib2 google-auth-
 
 4.  點擊「登入 Google 帳號」按鈕
 
-5.  授權後會自動顯示你擁有的 Google Sheets 清單
+5.  授權後會以下拉選單的形式展示你擁有的 Google Sheets 清單
 
 6.  選擇試算表即可讀取與顯示內容
 
