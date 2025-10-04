@@ -52,6 +52,7 @@ pip install streamlit google-api-python-client google-auth-httplib2 google-auth-
     -   應用程式類型選擇：**Desktop App** or **桌面應用程式**
 5.  下載JSON將其改名為 `credentials.json` 並放在專案根目錄中
 <img width="567" height="675" alt="image" src="https://github.com/user-attachments/assets/d19dd9cf-e655-4574-bfb7-a270631d0230" />
+
 6.  使用 `credentials_auto_creat.py` 建立 `.streamlit/secrets.toml` 
 
 ------------------------------------------------------------------------
